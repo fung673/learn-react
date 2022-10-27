@@ -1,5 +1,11 @@
 import React from "react";
 
 export default function Navbar() {
- return <h1>navbar component</h1>
+ return (
+  <nav>
+   <img src={require("../images/icon.png")} />
+   <h3>WeatherInfo</h3>
+  </nav>
+ )
 }
+
